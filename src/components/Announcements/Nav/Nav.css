@@ -1,0 +1,47 @@
+.Nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Lag{
+    cursor: pointer;
+    
+    
+}
+.left{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    flex: 1;
+}
+.search{
+    border: none;
+    outline: none;
+
+}
+
+.search-container{
+    display: flex;
+    border: 2px solid grey;
+    border-radius: .2em;
+    padding: 0.2em 0.3em;
+    margin-left: 3em;
+}
+.center, .right {
+    flex: 1;
+}
+
+.right ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.right ul a {
+    margin: 1em;
+text-decoration: none;
+color: rgb(61, 52, 52);
+}
+.right ul a:hover{
+    color: black;
+}
