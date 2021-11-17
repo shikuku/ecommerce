@@ -1,6 +1,7 @@
 import React from "react";
 import Announcements from "../components/Announcements/Announcents.js";
-import Nav from "../components/Announcements/Nav/Nav.js";
+import Nav from "../components/Nav/Nav.js";
+import Slider from "../components/Slider/Slider";
 
 
 const Home=()=>{
@@ -9,6 +10,7 @@ const Home=()=>{
 <Announcements/>
 
 <Nav/>
+<Slider />
 
 </div>
 
