@@ -13,9 +13,9 @@ const Productitem=({item})=>{
 
     </div>
 <div className="product-icons">
-    <div><AddShoppingCartOutlinedIcon /></div>
-    <div><SearchOutlinedIcon /></div>
-    <div><FavoriteBorderOutlinedIcon /></div>
+    <div className="icons"><AddShoppingCartOutlinedIcon /></div>
+    <div className="icons"><SearchOutlinedIcon /></div>
+    <div className="icons"><FavoriteBorderOutlinedIcon /></div>
 </div>
     
 </div>

@@ -1,0 +1,40 @@
+.container h1{
+    margin: 1em;
+}
+.dresses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+
+}
+.product-size{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+}
+.select-size, .select-price, .select-color{
+    /* padding: 1em; */
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    /* width: 80px; */
+    /* height: 40px; */
+}
+.color{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    gap: 2em;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 2em;
+}

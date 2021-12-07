@@ -1,0 +1,267 @@
+.cart_content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.cart_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: brown; */
+    width: 70%;
+    gap:3em;
+}
+
+.cart{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    /* gap: 4em; */
+}
+
+
+.cart_img{
+    width: 100px;
+    height: 100px;
+}
+
+.cart_img img{
+    width: 100%;
+}
+
+.cart_products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+hr{
+    border: .6px solid grey;
+    width: 60%;
+    text-align: center;
+}
+
+.guiter_vintage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+    
+}
+
+.remove_icon{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: 2em;
+    color: red;
+}
+
+.color_icon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ECDFD2;
+}
+
+.digit_cart{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #317C7D;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.vintage_icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.bottom_vintage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+.vintage{
+    gap: 5em;
+}
+
+.button_btn{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_btn{
+    width: 50%;
+    font-size: 1rem;
+    padding: .5em 0;
+    background-color: #317C7D;
+    border: none;
+    border-radius: .2em;
+    cursor: pointer;
+    color: white;
+}
+
+
+.cart_right{
+    width: 20%;
+    display: flex;
+    flex-direction:column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 50vh;
+    border: 2px solid #F3F3F3;
+    gap: 2em;
+    box-shadow: 3px 4px 3px 4px;
+}
+
+.cart-price{
+    color: #317C7D;
+}
+
+.cart_btn{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5em 0;
+    background-color: #317C7D;
+    border: none;
+    outline: none;
+    border-radius: 0.2em;
+    cursor: pointer;
+    color: white;
+}
+
+.cart_btn_btn{
+    width: 80%;
+    
+}
+
+.function_btn{
+    border: none;
+    cursor: pointer;
+}
+
+.order_p{
+    text-align: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.cart-order{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    font-weight: bold;
+}
+
+.border_cart hr{
+    width: 100%;
+}
+
+.order_content{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.color_icon1{
+    background-color: #6B6E6A;
+}
+/* @mediaQuerry */
+@media(max-width:414px){
+    .cart_content{
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 2em;
+    }
+
+    .guiter_vintage p{
+        font-size: 1rem;
+    }
+    hr{
+        width: 100%;
+    }
+
+    .cart_right, .cart_left, .button_btn{
+        width: 100%;
+    }
+    .cart,.cart_img{
+        width: 100%;
+        
+    }
+    .cart_img{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cart_left{
+        padding-bottom: 2em;
+    }
+.cart_right{
+    width: 100%;
+    padding: 2em;
+}
+    
+.cart{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+    .cart_img img{
+        width: 20%;
+    }
+    .vintage_icon{
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+}
+
+
+@media(max-width:810px){
+    .cart_content{
+        /* flex-wrap: wrap; */
+        width: 100%;
+    }
+
+    .cart_right{
+        width: 100%;
+    }
+
+
+    .vintage_icon{
+margin-right: .5em;
+    }
+
+    .quantity_value{
+        padding-left: .3em;
+    }
+    hr{
+        width: 100%;
+    }
+    .btn_btn{
+        width: 100%;
+    }
+    .cart_btn_btn{
+        /* margin-top: 2em; */
+
+    }
+}
+

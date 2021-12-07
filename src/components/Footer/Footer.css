@@ -1,0 +1,170 @@
+.footer{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+    /* gap: 1em; */
+    background-color: #EFEAEA;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+.left-content{
+    width: 25%;
+}
+
+.left-content h2{
+    font-size:3rem;
+    line-height: 1.5em;
+}
+
+
+.left-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    gap: 2em;
+    color: white;
+    
+}
+
+.left-icons div{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+justify-content: center;
+align-items: center;
+  
+}
+.left-icons a{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.footer-top{
+    display: flex;
+    flex-direction:row;
+    /* background-color: red; */
+    justify-content: space-between;
+    width: 100%;
+padding: 2em;
+line-height: 2em;
+flex-wrap: wrap;
+
+}
+
+.cart-content{
+    margin-top: 2em;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 1em;
+}
+
+.bottom-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #494545;
+    padding: 1.5em;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.facebook-icon{
+    background-color: #3B5A98;
+    
+}
+.instagram-icon{
+    background-color:#EB7D7D;
+    
+}
+.pinterest-icon{
+    background-color: #BD1A1B;
+    
+}
+
+.twitter-icon{
+    /* font-size: 4rem; */
+    background-color: #49A1F2;
+    
+}
+
+.payment{
+    width: 50px;
+}
+
+.payment img {
+    width: 100%;
+}
+
+.payment-icons{
+    display: flex;
+    align-items: center;
+    /* justify-content:space-between; */
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+
+
+/* @mediaQuerry */
+@media(max-width:810px){
+    .Footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 2em;
+    }
+
+    
+
+    .left-content, .useful-links, .cart-content, .contact-content{
+        width: 50%;
+        margin: 1em 0;
+        /* background: red; */
+        padding: 1em;
+        
+    }
+
+    .left-content{
+        padding-right: 5em;
+    }
+
+    .left-content h2{
+        font-size: 1.8rem;
+    }
+    .right ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+}
+
+@media(max-width:414px){
+    .Footer{
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        background-color: red;
+    }
+
+    .left-content, .useful-links, .cart-content, .contact-content{
+        width: 100%;
+    }
+    }
+    
