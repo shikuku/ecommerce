@@ -5,7 +5,6 @@ import ClearIcon from "@mui/icons-material/Clear";
 import "./Cart.css";
 import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 
-import { cart } from "../../data";
 
 const Cart = () => {
   const [number, setNumber] = useState(1);
@@ -34,7 +33,7 @@ quantityBox.textContent = number;
       <div className="cart_left">
         <div className="cart">
           <div className="cart_img">
-            <img src="https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png" />
+            <img src="https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png" alt=""/>
           </div>
           <div className="cart_products">
             <div className="guiter_vintage">
@@ -84,7 +83,7 @@ quantityBox.textContent = number;
 <hr />
         <div className="cart">
           <div className="cart_img">
-            <img src="https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png" />
+            <img src="https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png" alt=""/>
           </div>
           <div className="cart_products">
             <div className="guiter_vintage">

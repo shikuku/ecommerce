@@ -4,7 +4,6 @@ import "./Slider.css"
 import ArrowLeftOutlinedIcon from '@mui/icons-material/ArrowLeftOutlined';
 import ArrowRightOutlinedIcon from '@mui/icons-material/ArrowRightOutlined';
 import {slides} from "../../data";
-import { Translate } from "@mui/icons-material";
 const Slider=()=>{
     const [slideIndex,setSlideIndex]=useState(0)
     const handleClick=(direction)=>{
@@ -24,7 +23,7 @@ if(direction==="left"){
             
 <div className="slide" style={{backgroundColor:slide.bg , transform:`translateX(${slideIndex*-100}vw)`}}>
 <div className="slide-image">
-<img src={slide.img} />
+<img src={slide.img} alt=""/>
 </div>
 
 <div className="slide-content">

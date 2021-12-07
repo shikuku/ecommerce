@@ -4,10 +4,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import GoogleIcon from '@mui/icons-material/Google';
 import CheckIcon from '@mui/icons-material/Check';
 import ClearIcon from '@mui/icons-material/Clear';
-import Announcements from "../Announcements/Announcents";
-import Nav from "../Nav/Nav";
 import "./SignUp.css";
-import Footer from "../Footer/Footer";
 
 const SignUp = () => {
     const [passward,setPassword]=useState("");
@@ -66,7 +63,7 @@ const renderIcon=()=>{
         </div>
         <div className="have-account">
           <p>
-            Already have an account? <a href="#">LOG IN HERE</a>
+            Already have an account? <a href="/login">LOG IN HERE</a>
           </p>
         </div>
       </form>

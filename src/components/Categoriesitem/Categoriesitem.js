@@ -6,7 +6,7 @@ const Categoriesitem=({item})=>{
         
 <div className="category-products">
     <div className="category-image">
-        <img src={item.img}/>
+        <img src={item.img} alt=""/>
     </div>
     <div className="category-info">
         <h1>{item.title}</h1>

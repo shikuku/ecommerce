@@ -8,7 +8,7 @@ const Productitem=({item})=>{
         
 <div className="products-items">
     <div className="products-image">
-        <img src={item.img}/>
+        <img src={item.img} alt=""/>
         <div className="empty-container"></div>
 
     </div>
