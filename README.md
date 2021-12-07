@@ -1,17 +1,17 @@
-#MAGOSO E-COMMERCE
+# MAGOSO E-COMMERCE
 ---
-##Description
+## Description
 ---
 This is an official E-commerce website for Magoso Youth Centre where you can order a variety of different clothing and accessories worldwide. The delivery is done to you for free.
-##Project link
+## Project link
 ---
 - you can view life project [here](https://github.com/shikuku/e-commerce.git)
-##Project screenshot
+## Project screenshot
 ***
 ![Website top section](public/images/ecommerce1.png)
 ![Website categories](public/images/ecommerce2.png)
 ![Website products](public/images/ecommerce3.png)
-##Set up and Installation
+## Set up and Installation
 ---
 To run this application on your computer do the following:
 - Clone the project to your desired location using this command ```git clone https://github.com/shikuku/e-commerce.git```
@@ -19,7 +19,7 @@ To run this application on your computer do the following:
 - open the project using favourite text editor eg in VScode use ```code .```
 - install all the dependences using ```npm install```(to use npm you must have [Node](https://nodejs.org/en/) installed)
 - run ```npm start```
-##Technology used
+## Technology used
 ---
 - HTML5
 - CSS3 
@@ -30,10 +30,10 @@ To run this application on your computer do the following:
 - REACT ROUTER V6.0.2
 - NODE JS V16.13.0
 - MATERIAL UI V5.1.0
-##Known bugs
+## Known bugs
 ---
 Make sure you down **LTS** version of Node
-##LICENSE
+## LICENSE
 ---
 - MIT License
 Copyright (c) [2021] **STEPHEN MUASA SHIKUKU**
@@ -55,9 +55,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-##Contact Information
+## Contact Information
 ***
--- In case of bugs you can reach me on muasasteve@26gmail.com
-##Author
+- In case of bugs you can reach me on muasasteve@26gmail.com
+## Author
 ---
 ***MUASA STEPHEN***
