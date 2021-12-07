@@ -2,7 +2,7 @@
 // import Categories from "./components/Categories/Categories";
 // import Productitem from "./components/Productitem/Productitem";
 import Home from "./pages/Home";
-// import React from "react";
+import React from "react";
 import LogIn from "./pages/LogIn";
 import SingUpPage from "./pages/SignUpPage";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";

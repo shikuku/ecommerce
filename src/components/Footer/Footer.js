@@ -10,7 +10,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 const Footer=()=>{
     
     return(
-        <>
+        <div>
         <div className="footer">
             <div className="footer-top">
         <div className="left-content">
@@ -67,7 +67,7 @@ const Footer=()=>{
 
 
         <a className="bottom-content">Magoso Interprises &copy; 2021-All Rights reserved</a>
-        </>
+        </div>
     )
     
 }
