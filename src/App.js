@@ -4,13 +4,13 @@ import Home from "./pages/Home";
 import React from "react";
 import LogIn from "./pages/LogIn";
 import SingUpPage from "./pages/SignUpPage";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 import Carts from "./pages/Carts";
 
 
 function App() {
   return (
-<Router basename={process.env.PUBLIC_URL}>
+<Router>
  <Routes>
    <Route path="/" element={<Home/>}/>
    <Route path="/cart" element={<Carts/>}/>
